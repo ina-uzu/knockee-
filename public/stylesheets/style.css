@@ -17,7 +17,7 @@ a{text-decoration: none;}
 }
 
 #body{
-  height: 100vh;
+  min-height: max-content;
   background: url("../images/knockee.png") no-repeat center/cover;
 }
 
@@ -41,12 +41,12 @@ a{text-decoration: none;}
   padding-left: 1%;
 }
 
-.blank{
-  min-height: 30%;
+.br {
+    line-height: 19%;
 }
 
-.br {
-  line-height: 19%;
+.blank{
+  min-height: 30%;
 }
 
 #bottom{
@@ -64,7 +64,7 @@ a{text-decoration: none;}
 }
 
 .footer .child{
-  padding: 0.5%;
+  padding: 0.7%;
   flex-grow: 1;
   text-align: center;
   font-size: 0.75rem;
@@ -72,11 +72,8 @@ a{text-decoration: none;}
   display: block;
 }
 
-
-
 html,body{
   height: 100%;
-  max-width:100%;
   font-family: 'Rubik', sans-serif;
 }
 
@@ -105,4 +102,3 @@ h1{
   display: block;
   clear: both;
 }
-
