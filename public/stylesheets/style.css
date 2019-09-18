@@ -4,7 +4,7 @@ li{list-style: none;}
 a{text-decoration: none;}
 
 #main{
-  min-height: max-content;
+  min-height: 100%;
   position: relative;
 }
 
@@ -35,9 +35,10 @@ a{text-decoration: none;}
   font-size: 1.3rem;
 }
 
-.content .image{
-  max-width:30%;
-  height:auto;
+.badge{
+  width: 25rem;
+  height: auto;
+  padding-left: 1%;
 }
 
 .blank{
@@ -63,7 +64,7 @@ a{text-decoration: none;}
 }
 
 .footer .child{
-  padding: 0.7%;
+  padding: 0.5%;
   flex-grow: 1;
   text-align: center;
   font-size: 0.75rem;
