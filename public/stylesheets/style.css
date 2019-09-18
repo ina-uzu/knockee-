@@ -21,7 +21,22 @@ a{text-decoration: none;}
   background: url("../images/knockee.png") no-repeat center/cover;
 }
 
-#content{
+.content{
+  padding-left: 3%;
+  padding-top: 20%;
+  font-family: 'Lora', serif;
+}
+
+.content .title{
+  font-size: 5.5rem;
+}
+
+.content .text{
+  font-size: 1.3rem;
+}
+
+.br {
+    line-height: 19%;
 }
 
 
