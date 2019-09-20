@@ -6,6 +6,16 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
+/* GET product page */
+router.get('/product', function(req,res){
+  res.render('product');
+});
+
+/* GET news page */
+router.get('/news', function(req,res){
+  res.render('news');
+});
+
 /* GET team page */
 router.get('/team', function(req,res){
   res.render('team');
