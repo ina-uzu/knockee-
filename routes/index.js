@@ -27,7 +27,7 @@ router.get('/contact', function(req,res){
 });
 
 /* GET privacy policy page */
-router.get('/policy', function(req,res){
+router.get('/privacypolicy', function(req,res){
   res.render('privacy_policy');
 });
 
