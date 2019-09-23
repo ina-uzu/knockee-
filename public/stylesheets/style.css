@@ -57,8 +57,10 @@ h1{
   padding-top: 70px;
   height: max-content;
   min-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
 
 #bottom{
   background-color: #313131;
