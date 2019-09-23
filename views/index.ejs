@@ -17,40 +17,26 @@
       display: flex;
       width: 100%;
       flex-direction: row;
-      overflow: auto;
     }
+
     .left-box{
-/*      float: left;
-      width: 45%;*/
       flex: 2;
       display: flex;
-      width: auto;
-    }
-
-    .floater-left{
-      flex: 1
-    }
-
-    .floater-right{
-      flex: 1
     }
 
     .right-box{
-      /*padding: 8% 0;
-      float: right;
-      width: 55%;*/
       flex: 3;
-      padding: 8% 0%;
+      padding: 10% 0%;
+      margin-left:10%;
     }
 
     .right-item{
       float: left;
-      padding-left: 7%;
-      padding-right: 25%;
     }
 
     .img{
       position: absolute;
+      padding-left: 5%;
     }
 
     .phone{
@@ -61,13 +47,18 @@
     .display{
       width: 15rem;
       height: 29rem;
-      margin-left: 49px;
-      margin-top: 90px;
+      margin-top: 110px;
+      margin-left: 60px;
     }
 
     .title{
-      font-size: 3rem;
-      line-height: 5rem;
+      font-size: 2.5rem;
+      line-height: 4rem;
+    }
+
+    .text{
+      font-size: 1.4rem;
+      line-height: 3rem;
     }
 
     .badge{
@@ -94,22 +85,21 @@
           </ul>
        </div>
   </div>
-  <div id="body" class=".hori-center">
+  <div id="body" class="hori-center">
     <div class="container">
       <div class="content box">
         <div class="content left-box">
-          <div class="floater-left"></div>
-          <div class="floater-right">
-            <img class="img phone" src="/images/phone.png"/>
-            <img class="img display" src="/images/simulation.gif"/>
-          </div>
+          <img class="img phone" src="/images/phone.png"/>
+          <img class="img display" src="/images/simulation.gif"/>
         </div>
 
         <div class="content right-box">
           <div class="content right-item">
-            <span class="content title">Next-Generation Text Chatting for Smartphone:</span>
-            <span class="content title"><b>Knock Knock!</b></span>
+            <span class="content text">To Respect Your Time,<br></span>
+            <span class="content title">First Chatting App to Have a Different Goal: Disconnection.<br></span>
+            <span class="content title"><b>knockee<br></b></span>
             <a href="https://play.google.com/store/apps/details?id=com.theknockee.knockee"><img class="badge" src="/images/google-play-badge.png"/></a>
+            <span class="content title"><br></span>
             <!--
             <span class="content text">You use a Smartphone because you want Connections with your friends.<br></span>
             <span class="content text">But ironically, you get overwhelmed by the incessant buzz of your phone.<br></span>
