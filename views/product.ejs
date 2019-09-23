@@ -3,7 +3,92 @@
   <link rel="stylesheet" href="/stylesheets/style.css">
   <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lora:400,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Schoolbell&display=swap" rel="stylesheet">
   <title>knockee - Product</title>
+  <style>
+    .container{
+      padding:3% 10%;
+    }
+
+    .sub-container{
+      display: flex;
+    }
+
+    .line-container{
+      font-family: 'Schoolbell', cursive;
+      text-align:center;
+      padding:8% 0%;
+    }
+
+    @media (max-width: 600px) {
+      .sub-container { display: block; }
+    }
+
+    .box-flex-2{
+      flex:3;
+    }
+
+    .top-padding{
+      padding:7% 0%;
+    }
+
+    .top-padding-2{
+      padding: 1% 0%;
+    }
+
+    .left-padding{
+      padding-left: 5%;
+      padding-right: 2%;
+    }
+
+    .box-flex-3{
+      flex:4;
+    }
+
+    .content{
+      font-family: 'Lora', serif;
+    }
+
+    .title{
+      font-size: 4rem;
+      line-height: 8rem;
+    }
+
+    .sub-title{
+      padding-top:5%;
+      font-size: 2.5rem;
+      line-height: 6rem;
+    }
+
+    .text-box{
+      padding-right:10%;
+    }
+
+    .text{
+      font-size: 1.5rem;
+      line-height: 2.5rem;
+    }
+
+    .flow-text{
+      font-size:2.8rem;
+    }
+
+    .img{
+      width: 90%;
+      height: auto;
+      padding: 0% 5%;
+    }
+
+    .img2{
+      width: 90%;
+      height: auto;
+      float:left;
+    }
+
+    .bottom-margin{
+        padding:7% 0%;
+    }
+  </style>
 </head>
 <div id="main">
   <div id="header">
@@ -19,6 +104,45 @@
        </div>
   </div>
   <div id="body">
+    <div class="container">
+        <span class="content title"><b>Product</b></span>
+        <div class="text"><br>
+  
+        </div>
+        <div class="sub-container">
+          <div class="box-flex-2">
+            <img class="img"src="/images/product_1.png">
+          </div>
+  
+          <div class="box-flex-3 top-padding">
+            <span class="content sub-title">Knock and Chat!<br></span>
+            <div class="content text-box">
+              <span class="content text">If you want to chat with your friend, do knock! (knock is similar to a telephone dial.) If your friend answers to the knock, chatting room will pop up so that you can have a conversation there.<br></span>
+              <span class="content text">Don't worry if your friend doesn't answer. You can leave a Front-Door-Message to him/her.<br></span>
+            </div>
+          </div>
+        </div>
+  
+        <div class="line-container">
+          <span class="flow-text">Knock → Answer → Chatting Wnd Pop Up → Chat → Close Wnd<br></span>
+        </div>
+  
+        <div class="sub-container">
+          <div class="box-flex-3 top-padding-2 left-padding">
+            <span class="content sub-title">Write a Letter!<br></span>
+            <div class="content text-box-2">
+              <span class="content text">If you don't want to disrupt your friends when delivering some photos or announcements, write a Letter instead of knock and chat.<br></span>
+              <span class="content text">Write it anytime, then we will deliver it once a day, at every 12 p.m. for you.<br></span>
+              <span class="content text">You can easily send things without drawing your friends' attention.<br></span>
+            </div>
+          </div>
+  
+          <div class="box-flex-2">
+            <img class="img2"src="/images/product_2.png">
+          </div>
+        </div>
+        <div class="bottom-margin"></div>
+      </div>
     <div id="bottom">
       <div class="footer">
         <div class='footer left'>TERMS & PRIVACY</div>
