@@ -21,6 +21,7 @@ html,body{
   z-index: 10;
   top:0;
   left:0;
+  background: url("../images/knockee_title.png");
 }
 
 #logo{
