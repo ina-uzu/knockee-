@@ -14,12 +14,13 @@ html,body{
 }
 
 #header{
-    background-color:white;
-    border-bottom: 1px solid #d6d6d6;
-    position:fixed;
-    width:100%;
-    top:0;
-    left:0;
+  background-color:white;
+  border-bottom: 1px solid #d6d6d6;
+  position:fixed;
+  width:100%;
+  z-index: 10;
+  top:0;
+  left:0;
 }
 
 #logo{

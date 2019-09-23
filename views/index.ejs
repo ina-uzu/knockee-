@@ -4,6 +4,76 @@
   <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lora:400,700&display=swap" rel="stylesheet">
   <title>knockee - Home</title>
+  <style>
+      .container{
+        padding: 5% 0%;
+      }
+  
+      .content{
+        font-family: 'Lora', serif;
+      }
+  
+      .box{
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        overflow: auto;
+      }
+      .left-box{
+        flex: 2;
+        display: flex;
+        width: auto;
+      }
+  
+      .floater-left{
+        flex: 1
+      }
+  
+      .floater-right{
+        flex: 1
+      }
+  
+      .right-box{
+        flex: 3;
+        padding: 8% 0%;
+      }
+  
+      .right-item{
+        float: left;
+        padding-left: 7%;
+        padding-right: 25%;
+      }
+  
+      .img{
+        position: absolute;
+      }
+  
+      .phone{
+        width:21rem;
+        height:39rem;
+      }
+  
+      .display{
+        width: 15rem;
+        height: 29rem;
+        margin-left: 49px;
+        margin-top: 90px;
+      }
+  
+      .title{
+        font-size: 4rem;
+        line-height: 8rem;
+      }
+  
+      .text{
+        font-size: 1.6rem;
+        line-height: 2.2rem;
+      }
+  
+      .bottom-margin{
+        padding:5% 0%;
+      }
+    </style>
 </head>
 <div id="main">
   <div id="header">
@@ -18,7 +88,28 @@
           </ul>
        </div>
   </div>
-  <div id="body">
+  <div id="body" style="position">
+    <div class="container">
+      <div class="content box">
+        <div class="content left-box">
+          <div class="floater-left"></div>
+          <div class="floater-right">
+            <img class="img phone" src="/images/phone.png"/>
+            <img class="img display" src="/images/simulation.gif"/>
+          </div>
+        </div>
+
+        <div class="content right-box">
+          <div class="content right-item">
+            <span class="content title"><b>Knock Knock!<br></b></span>
+            <span class="content text">You use a Smartphone because you want Connections with your friends.<br></span>
+            <span class="content text">But ironically, you get overwhelmed by the incessant buzz of your phone.<br></span>
+            <span class="content text"><b>For worthy You and your worthy Connections, “knockee” is here.<br></b></span>
+          </div>
+        </div>
+      </div>
+      <div class="bottom-margin"></div>
+    </div>
     <div id="bottom">
       <div class="footer">
         <div class='footer left'><a href="privacypolicy">TERMS & PRIVACY</a></div>
