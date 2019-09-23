@@ -23,6 +23,7 @@ html,body{
   top:0;
   left:0;
   background: url("../images/knockee_title.png");
+  background-size:cover;
 }
 
 #logo{
@@ -46,7 +47,7 @@ html,body{
   padding: 0 15px;
   text-decoration: none;
   font-weight: 400;
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 
 h1{
@@ -54,8 +55,8 @@ h1{
   line-height: 70px;
   float: left;
   padding: 0 10%;
-  font-weight: 400;
-  font-size: 2.3rem;
+  font-weight: 500;
+  font-size: 1.7rem;
 }
 
 #body{
