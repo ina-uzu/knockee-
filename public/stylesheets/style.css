@@ -24,7 +24,7 @@ html,body{
 
 #logo{
   float:left;
-  width:50%;
+  padding-left: 5%;
 }
 
 .nav{

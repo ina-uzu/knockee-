@@ -1,9 +1,65 @@
 <html>
 <head>
-  <link rel="stylesheet" href="/stylesheets/style.css">
+    <link rel="stylesheet" href="/stylesheets/style.css">
   <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lora:400,700&display=swap" rel="stylesheet">
   <title>knockee - About us</title>
+  <style>
+    .container{
+      padding-left: 10%;
+      padding-top: 3%;
+      padding-right: 5%;
+    }
+
+    .content{
+      font-family: 'Lora', serif;
+    }
+
+    .title{
+      font-size: 4rem;
+      line-height: 8rem;
+    }
+
+    .sub-title{
+      font-size: 2.5rem;
+    }
+
+    .text{
+      font-size: 1.2rem;
+      line-height: 1.5rem;
+    }
+
+    .img-box{
+      text-align:center;
+    }
+
+    .img{
+      width:40rem;
+      height:auto;
+    }
+
+    .sub-img-box{
+      display:flex;
+      flex-direction: row;
+      padding: 5% 0%;
+    }
+
+    .sub-img-item{
+      flex-grow: 1;
+      text-align:center;
+      font-size:1.2rem;
+    }
+
+    .sub-img{
+      width:13rem;
+      height:13rem;
+      padding:3%;
+    }
+
+    .bottom-margin{
+      padding:5% 0%;
+    }
+  </style>
 </head>
 <div id="main">
   <div id="header">
@@ -19,9 +75,49 @@
        </div>
   </div>
   <div id="body">
+    <div class="container">
+      <span class="content title">About us<br></span>
+      <span class="content sub-title">Our Story<br></span>
+      <span class="content text"><br>Our journey began when, as a design ethicist at Google, Tristan Harris observed the large-scale negative impacts of attention-grabbing business models. He created a presentation entitled “A Call to Minimize Distraction & Respect Users’ Attention” to address this, and it went viral, reaching thousands of employees within Google.<br><br></span>
+      <span class="content text">After that, Tristan extended the conversation publicly with two TED talks and a 60 Minutes interview, sparking the Time Well Spent movement. The number of concerned insiders was growing... Then, in 2016, the harms Tristan and others were warning of exploded into the public discourse with Russia’s use of social media to manipulate American voters<br><br></span>
+      <span class="content text">Building on that momentum, CHT was launched in 2018 as an independent non-profit organization supported by a powerful and growing movement of cross-disciplinary leaders in technology, humanity, mindfulness, philosophy, and education.<br><br></span>
+
+      <span class="content sub-title"><br>Our Team<br><br></span>
+      <div>
+        <div class="img-box"><img class="img" src="../public/images/team.PNG"/></div>
+        <div class="sub-img-box">
+          <div class="content sub-img-item">
+              <img class="sub-img" src="../public/images/tmp.PNG"><br>
+            <b>Joon-ha Lee<br></b>
+            <span>Sogang Univ<br></span>
+            <span></span>
+          </div>
+          <div class="content sub-img-item">
+            <img class="sub-img" src="../public/images/tmp.PNG"><br>
+            <b>Tommy<br></b>
+            <span>Sogang Univ<br></span>
+            <span></span>
+          </div>
+          <div class="content sub-img-item">
+            <img class="sub-img" src="../public/images/tmp.PNG"><br>
+            <b>Ye-eun Lee<br></b>
+            <span>Sogang Univ<br></span>
+            <span></span>
+          </div>
+          <div class="content sub-img-item">
+            <img class="sub-img" src="../public/images/tmp.PNG"><br>
+            <b>Ina Song<br></b>
+            <span>Sogang Univ<br></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+      <div class="bottom-margin"></div>
+    </div>
+
     <div id="bottom">
       <div class="footer">
-        <div class='footer left'>TERMS & PRIVACY</div>
+        <div class='footer left'><a href="privacypolicy">TERMS & PRIVACY</a></div>
         <div class='footer right'>Ⓒ 2019 knockee</div>
       </div>
     </div>
