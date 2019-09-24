@@ -81,29 +81,25 @@ h1{
 }
 
 .footer {
-  line-height: 40px;
+  line-height: 45px;
+  font-size: 15px;
+  color: white;
 }
 
 .footer a{
-  color:white;
   text-decoration: none;
 }
 
 .left{
-  color: white;
   float:left;
   padding: 0 5%;
-  font-size: 0.75rem;
 
 }
 
 .right{
-  color: white;
   float:right;
   padding: 0 5%;
-  font-size: 0.75rem;
 }
-
 .clearfix{
   content: '';
   display: block;
