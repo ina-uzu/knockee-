@@ -6,12 +6,20 @@
   <title>knockee - About us</title>
   <style>
     .container{
-      padding:3% 20%;
+      padding:5% 20%;
       overflow: auto;
+    }
+
+    .box{
+        margin:5% 0%;
     }
 
     .content{
       font-family: 'Lora', serif;
+    }
+ 
+    .title{
+      font-size: 3rem;
     }
 
     .sub-title{
@@ -21,11 +29,6 @@
     .text{
       font-size: 1.2rem;
       line-height: 2rem;
-    }
-
-    .title{
-      font-size: 3rem;
-      line-height: 8rem;
     }
 
     .text-2{
@@ -81,6 +84,54 @@
     .bottom-margin{
       padding:5% 0%;
     }
+
+    
+    @media (max-width: 1200px) {
+      .container{
+        padding:3% 10%;
+        overflow: auto;
+      }
+
+      .sub-img-box{
+        display:block;
+        overflow: auto;
+      }
+
+      .sub-img-item{
+        text-align:center;
+        font-size:1.2rem;
+        padding-bottom:5%;
+      }
+
+      .sub-img{
+        width:6rem;
+        height:6rem;
+      }
+
+      .title{
+        font-size: 3rem;
+        line-height: 8rem;
+      }
+
+      .sub-title{
+        font-size: 2.5rem;
+      }
+
+      .text{
+        font-size: 1.2rem;
+        line-height: 2rem;
+      }
+
+      .text-2{
+        font-size: 1rem;
+        line-height: 1.5rem;
+      }
+
+      .text-3{
+        font-size: 0.75rem;
+        line-height: 1rem;
+      }
+    }
   </style>  
 </head>
 <div id="main">
@@ -99,17 +150,19 @@
   <div id="body">
     <div class="container">
       <span class="content title"><b>About us<br></b></span>
-      <span class="content text">We struggled to make functions that can save us from constant buzzing of Instant Messengers while keeping connections to our friends. By our functions, “knock and chat” and “Letter”, finally we’ll be able to focus on one thing at a time and enjoy our Smartphone lives without any disruption!<br></span>
+      <div class ="box">
+          <span class="content text">We struggled to make functions that can save us from constant buzzing of Instant Messengers while keeping connections to our friends. By our functions, “knock and chat” and “Letter”, finally we’ll be able to focus on one thing at a time and enjoy our Smartphone lives without any disruption!<br></span>
 
-      <span class="content text"><b><br>[ Mission ]<br></b></span>
-      <span class="content text">To respect ourselves and our relations, we separate the time we are having text chatting from not having text chatting.<br></span>
-
-      <span class="content text"><b><br>[ Vision ]<br></b></span>
-      <span class="content text">In the age of universal Digital Connection, to make the time we spend together and the time we spend alone, all of it valuable.<br></span>
-
-      <span class="content text"><br>We are all Undergraduate students majoring Computer Science and Engineering at Sogang University. Joon-ha started this project and excellent developers, Ina, Tommy, and Ye-eun joined. We are all now focusing on building the knockee app for real usage.<br></span>
-
-      <span class="content sub-title"><b><br>Our Team<br><br></b></span>
+          <span class="content text"><b><br>[ Mission ]<br></b></span>
+          <span class="content text">To respect ourselves and our relations, we separate the time we are having text chatting from not having text chatting.<br></span>
+    
+          <span class="content text"><b><br>[ Vision ]<br></b></span>
+          <span class="content text">In the age of universal Digital Connection, to make the time we spend together and the time we spend alone, all of it valuable.<br></span>
+    
+          <span class="content text"><br>We are all Undergraduate students majoring Computer Science and Engineering at Sogang University. Joon-ha started this project and excellent developers, Ina, Tommy, and Ye-eun joined. We are all now focusing on building the knockee app for real usage.<br></span>    
+      </div>
+      <div class="box">
+        <span class="content sub-title"><b>Our Team<br><br></b></span>
         <div class="img-box"><img class="img" src="/images/team.PNG"/></div>
         <div class="sub-img-box">
           <div class="content sub-img-item">
@@ -138,8 +191,10 @@
             <span class ="text-3"><br>Sogang University<br>Undergraduate, Computer Science and Engineering<br></span>
             <span class ="text-3"><br>S/W Developing Intern at PhysioCue Inc.<br><span>
           </div>
+          </div>
         </div>
       </div>
+
       <div class="bottom-margin"></div>
     </div>
     
